@@ -220,13 +220,13 @@ plt.show()
 
 # prompt: deploy it using streamlit
 
-!pip install streamlit
+pip install streamlit
 
-!pip install streamlit pyngrok
+pip install streamlit pyngrok
 
-! pip install streamlit -q
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run app.py & npx localtunnel --port 8501
+pip install streamlit -q
+wget -q -O - ipv4.icanhazip.com
+streamlit run app.py & npx localtunnel --port 8501
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
