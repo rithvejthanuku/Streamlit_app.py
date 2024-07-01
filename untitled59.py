@@ -220,28 +220,25 @@ plt.show()
 
 # prompt: deploy it using streamlit
 
-pip install streamlit
 
-pip install streamlit pyngrok
 
-pip install streamlit -q
-wget -q -O - ipv4.icanhazip.com
-streamlit run app.py & npx localtunnel --port 8501
+
+
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 
 # Step 1: Install Streamlit and nbformat
-pip install streamlit nbformat
 
-import streamlit as st
+
 
 st.title('Simple Streamlit App')
 st.write('Hello, Streamlit!')
 
 # Step 2: Write the Streamlit app to display the notebook
 
-import streamlit as st
+
 import nbformat
 
 # Function to read and display the notebook
