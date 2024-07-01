@@ -232,7 +232,7 @@ plt.show()
 # %%writefile app.py
 
 # Step 1: Install Streamlit and nbformat
-!pip install streamlit nbformat
+pip install streamlit nbformat
 
 import streamlit as st
 
